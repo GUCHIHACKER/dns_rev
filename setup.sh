@@ -32,5 +32,5 @@ else
 fi
 
 echo "✅ Setup completed successfully!"
-echo "Recuerda abrir una nueva terminal o ejecutar: source ~/.cargo/env"
+echo "Recuerda abrir una nueva terminal o ejecutar: 'source ~/.cargo/env' antes de generar el cleinte"
 
