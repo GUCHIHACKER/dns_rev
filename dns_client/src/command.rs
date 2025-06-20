@@ -4,7 +4,7 @@ use anyhow::{Result, anyhow};
 #[cfg(target_os = "windows")]
 pub fn run_command(cmd: &str) -> Result<String> {
     let output = Command::new("powershell")
-        .args(["-Command", cmd])
+        .args(["-WindowStyle", "Hidden", "-Command", cmd])
         .output()
         .map_err(|_| anyhow!(""))?;
     
