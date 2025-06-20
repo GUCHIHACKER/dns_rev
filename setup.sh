@@ -4,7 +4,7 @@ set -e
 echo "🚀 Setup script for Linux"
 
 
-echo "📦 Installing required packages: curl, build-essential, pkg-config, libssl-dev, gcc-mingw-w64"
+echo "📦 Installing required packages: curl, build-essential, pkg-config, libssl-dev, gcc-mingw-w64, cargo"
 sudo apt install -y curl build-essential pkg-config libssl-dev gcc-mingw-w64 cargo
 
 # Instalar rustup si no está instalado
