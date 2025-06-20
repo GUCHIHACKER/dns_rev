@@ -128,6 +128,10 @@ El servidor incluye un archivo de pruebas en `dns_server/tests/client.py` para v
 ## Video demo
 
 
+
+https://github.com/user-attachments/assets/496bb389-2b79-4666-addc-2f514a89dde5
+
+
 ---
 
 ## Notas de Seguridad
