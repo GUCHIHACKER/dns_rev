@@ -42,7 +42,7 @@ dns_rev/
 
 2. **(Opcional) Ejecuta el setup para dependencias en Linux:**
    ```bash
-   ./setup.sh
+   bash ./setup.sh
    ```
 
 3. **Inicia el servidor:**
@@ -56,7 +56,7 @@ dns_rev/
    
    Ejecuta el script de generación:
    ```bash
-   ./generate.sh
+   bash ./generate.sh
    ```
    - El script te pedirá la IP del servidor DNS y la actualizará automáticamente en la configuración del cliente.
    - Te permitirá elegir el sistema operativo de destino (Linux o Windows) y compilará el binario correspondiente.
