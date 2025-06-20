@@ -1,5 +1,8 @@
 # Reverse Shell sobre DNS
 
+![Logo](https://github.com/user-attachments/assets/ffb39231-ae53-4a15-9c1b-dd4583124ae5)
+
+
 Este proyecto implementa una reverse shell que utiliza el protocolo DNS para la comunicación entre un cliente (escrito en Rust) y un servidor (en Python). Es ideal para situaciones donde el tráfico convencional está restringido, pero el DNS sigue permitido.
 
 ---
